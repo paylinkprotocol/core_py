@@ -1,0 +1,2 @@
+class PayLinkProtocolError(Exception):
+    pass

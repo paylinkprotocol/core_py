@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: paylink_protocol
+Version: 1.0.0
+Summary: A Python library for managing the PayLink Protocol on Ethereum.
+Home-page: https://github.com/paylinkprotocol
+Author: Paylink Protocol
+Author-email: mail@paylinkprotocol.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: web3>=5.0.0
+Requires-Dist: hexbytes>=0.2.0
+
+# PayLink Protocol Library
+
+A Python library for interacting with the PayLink Protocol on Ethereum.
+
+## Features
+
+- Subscribe to PayLink Protocol events
+- Decode event data into Python objects
+- Works with any Ethereum-compatible RPC endpoint
+
+## Installation
+
+Install the library via pip:
+
+```bash
+pip install paylink_protocol
